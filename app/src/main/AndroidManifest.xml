@@ -70,6 +70,13 @@
             android:theme="@style/Theme.WireguardAutoTunnel"
 			android:configChanges="orientation|screenSize|keyboardHidden"
 			>
+			<intent-filter>
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+    <data android:scheme="content" android:host="*" android:mimeType="application/x-blitztech" />
+    <data android:scheme="file" android:host="*" android:pathPattern=".*\\.bt" />
+</intent-filter>
 
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
