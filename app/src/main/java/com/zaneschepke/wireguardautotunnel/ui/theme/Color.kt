@@ -1,14 +1,14 @@
-package com.zaneschepke.wireguardautotunnel.ui.theme
+package com.wgtunnel.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val OffWhite = Color(0xFFF2F2F4)
-val CoolGray = Color(0xFF8D9D9F)
-val LightGrey = Color(0xFFECEDEF)
-val Aqua = Color(0xFF76BEBD)
-val Plantation = Color(0xFF2E3538)
-val Shark = Color(0xFF21272A)
-val BalticSea = Color(0xFF1C1B1F)
+// BlitzTech Blue Theme Colors
+val BlitzBlue = Color(0xFF1E88E5)
+val BlitzDarkBlue = Color(0xFF0A1929)
+val BlitzSurface = Color(0xFF102A43)
+val BlitzOnSurface = Color(0xFFE3F2FD)
+val BlitzSecondary = Color(0xFF00B0FF)
+val BlitzOnPrimary = Color(0xFFFFFFFF)
 
 // amoled
 val ElectricTeal = Color(0xFF4DD0E1)
